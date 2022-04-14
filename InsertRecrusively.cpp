@@ -19,7 +19,7 @@ public:
 
 	// Inorder traversal.
 	void Inorder(BST*);
-};
+}; 
 
 // Default Constructor definition.
 BST ::BST()
@@ -87,6 +87,7 @@ int main()
 	b.Insert(root, 70);
 	b.Insert(root, 60);
 	b.Insert(root, 80);
+	b.Insert(root,90);
 
 	b.Inorder(root);
 	return 0;
