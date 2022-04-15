@@ -88,6 +88,7 @@ int main()
 	b.Insert(root, 60);
 	b.Insert(root, 80);
 	b.Insert(root,90);
+	b.Insert(root,100);
 
 	b.Inorder(root);
 	return 0;
